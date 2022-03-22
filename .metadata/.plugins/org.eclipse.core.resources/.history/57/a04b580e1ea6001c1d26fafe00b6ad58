@@ -1,0 +1,57 @@
+package Logical_Program;
+
+import java.util.Scanner;
+
+class Usr_Prime {
+	int m,n;
+	
+	void accept() {
+		
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter the upper limit");
+		m=sc.nextInt();
+		
+		System.out.println("Enter the lower limit");
+		n=sc.nextInt();
+		
+		
+	}
+	
+	
+	void prime() {
+		int i,j,c;
+		System.out.println("prime no between"+m+ "and"+n "are");
+		for(j=m+1;j<=n;j++) {
+			
+			c=0;
+			
+			for(i=1;i<j;j++) {
+				
+				if(j%i==0)
+					c++;
+				
+			}
+			
+			if(c==2)
+				System.out.print(j+"");
+		}
+		
+	}
+	
+
+
+
+
+
+	public static void main(String[] args) {
+		
+		Usr_Prime p=new Usr_Prime();
+		
+		p.accept();
+		p.prime();
+		
+		
+	}
+
+}

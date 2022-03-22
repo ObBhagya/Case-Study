@@ -1,0 +1,14 @@
+
+public class RevStrng {
+
+	public static void main(String [] args) {
+		StringBuilder sb=new StringBuilder();
+		sb.reverse();
+		
+		
+		String str;
+		str="god";
+		
+		sb.reverse();
+	}
+}

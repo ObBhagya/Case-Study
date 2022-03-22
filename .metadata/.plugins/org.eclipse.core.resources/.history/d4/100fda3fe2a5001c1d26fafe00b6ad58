@@ -1,0 +1,31 @@
+package com.te.learn.Predct;
+
+import java.util.function.Function;
+
+public class Task {
+
+	public static void main(String[] args) {
+		
+		Function<String, String> st1= new Function<String, String>() {
+			
+			@Override
+			public String apply(String arg0) {
+				String st2="bbb";
+				
+				if(st2.equals(st2))
+                   
+					
+				return st2;
+				return arg0;
+//			
+				
+				
+			}
+		};
+			
+		System.out.println(""+st1.apply("hh"));
+				
+		
+	}
+
+}

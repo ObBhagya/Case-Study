@@ -1,0 +1,10 @@
+package learn.comprble;
+
+public class AppComp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

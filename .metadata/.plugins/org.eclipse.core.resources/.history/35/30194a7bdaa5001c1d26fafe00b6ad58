@@ -1,0 +1,25 @@
+package com.te.learn.Predct;
+
+import java.util.function.Predicate;
+
+public class PrdctStr {
+
+	public static void main(String[] args) {
+
+		Predicate<String> predicate= s ->
+		{
+			if(s.equanotherString)(5)
+				return false;
+			return true;
+			
+		};
+		
+		String str="abcde";
+		
+		System.out.println(""+predicate.test(str));
+		
+		
+
+	}
+
+}

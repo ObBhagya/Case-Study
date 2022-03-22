@@ -1,0 +1,20 @@
+package learn.demoabstrct;
+
+public class E2 extends Example{
+
+	@Override
+	public void msg() {
+		System.out.println("hello");		
+	}
+
+	@Override
+	public void msg1() {
+		System.out.println("there?");		
+	}
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,82 @@
+package com.learn.te.case_study;
+
+import java.util.Scanner;
+
+public class MusicApp {
+
+	public static void main(String[] args) {
+		
+     int song_id ;
+     String song_title;
+     String Artist_name;
+     String Album_locatio;
+     String Song_location;
+     String Description;
+     
+     
+     String[] arr= new String[]{"Thank you","Convicted","Blank Space"}; 
+     
+     Scanner sc=new Scanner(System.in);
+     
+     System.out.println("Choose the below options");
+     System.out.println("i.Press 1 to play song");
+     System.out.println("ii.Press 2 to search a song");
+     System.out.println("iii.Press 3 to show all songs");
+     System.out.println("iv.Press 4 to “Operate on Songs Database");
+     
+     int option=0;
+     
+     option=sc.nextInt();
+     
+     if(option==1) {
+    	 System.out.println("wellcome...wellcome ....wellcome");
+    	 
+    	 }
+
+//    	 else
+//    	 {
+//    		 System.out.println("Please choose the option");
+//    	 }
+     
+     if (option==2) {
+    	 System.out.println("Enter the you want to search");
+    	 String search;
+    	 search=sc.next();
+    	 
+    	 for(int i=0;i<arr.length;i++) {
+    		 
+    		 if(arr[i].equals(search)) {
+    			 System.out.println("Yes the song is present"+arr[i]);
+    			 break;}
+    			 
+    			 else {
+    				 System.out.println("Sorry the song is not present");}
+    			 
+    			 
+    		 
+    	 }
+
+    	 
+     }
+     
+//     option=sc.nextInt();
+//     
+//     switch(option)
+//     {
+//     case 1:
+//    	 System.out.println("i.Press 1 to play song"+option);
+//    	 break;
+//    	 
+//     case 2: 
+//    	 System.out.println("ii.Press 2 to search a song"+option);
+//
+//     case 3: 
+//    	 System.out.println("iii.Press 3 to show all songs"+option);
+//    	 
+//     case 4:
+//    	 System.out.println("iv.Press 4 to “Operate on Songs Database"+option);
+//     }
+		
+	}
+
+}

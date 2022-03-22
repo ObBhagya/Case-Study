@@ -1,0 +1,26 @@
+package com.te.learn.Predct;
+
+import java.util.function.Predicate;
+
+public class PredictDemo {
+
+	public static void main(String[] args) {
+		
+		Predicate<Integer> predicate=i -> {
+			
+					
+					if(i %2 == 0 )
+				return true;
+			return false;
+			
+			
+			
+		};
+		
+		int n=2;
+		System.out.println(""+predicate.test(n));
+		
+		
+	}
+
+}

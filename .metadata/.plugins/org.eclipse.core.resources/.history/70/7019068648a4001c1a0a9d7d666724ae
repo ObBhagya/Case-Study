@@ -1,0 +1,18 @@
+package learn.Excption;
+
+public class Ex {
+
+	public static void main(String[] args) {
+		int age=-9;
+		
+		try {
+			if (age = -9)
+		}
+		catch(Exception e){
+			System.out.println("wrong age");
+			}
+		
+		
+	}
+
+}
